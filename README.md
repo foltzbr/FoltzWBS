@@ -106,5 +106,5 @@ Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENS
 Para dúvidas ou sugestões, entre em contato:
 
 - **Foltz** - [GitHub](https://github.com/foltzbr)
-```
+
 
