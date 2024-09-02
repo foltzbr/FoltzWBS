@@ -13,8 +13,8 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seuusuario/foltz-wbs.git
-   cd foltz-wbs
+   git clone https://github.com/foltzbr/FoltzWBS.git
+   cd FoltzWBS/foltz-wbs
    ```
 
 2. **Instale as dependências:**
@@ -38,8 +38,8 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seuusuario/foltz-wbs.git
-   cd foltz-wbs
+   git clone https://github.com/foltzbr/FoltzWBS.git
+   cd FoltzWBS/foltz-wbs
    ```
 
 2. **Instale as dependências:**
@@ -66,8 +66,8 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
 2. **Clone o repositório e instale as dependências:**
 
    ```bash
-   git clone https://github.com/seuusuario/foltz-wbs.git
-   cd foltz-wbs
+   git clone https://github.com/foltzbr/FoltzWBS.git
+   cd FoltzWBS/foltz-wbs
    pip install -r requirements.txt
    ```
 
@@ -106,5 +106,4 @@ Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENS
 Para dúvidas ou sugestões, entre em contato:
 
 - **Foltz** - [GitHub](https://github.com/foltzbr)
-
 
