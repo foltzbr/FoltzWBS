@@ -97,6 +97,9 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
 - **Banners**: Personalize os banners editando os arquivos em `ascii_banners/`.
 - **Efeito de Texto**: Ajuste o efeito de máquina de escrever no script conforme preferir.
 
+## 📄 Licença
+
+Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 📞 Contato
 
@@ -105,4 +108,3 @@ Para dúvidas ou sugestões, entre em contato:
 - **Foltz** - [GitHub](https://github.com/foltzbr)
 ```
 
-Agora, o Markdown está devidamente formatado para exibir corretamente no GitHub. Se precisar de mais ajustes, é só me avisar!
