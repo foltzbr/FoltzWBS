@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import requests
 import threading
@@ -14,6 +15,18 @@ def reset_terminal_color():
         print("\033[0m", end='')
 
 def load_banner(filename):
+    # file-relative first (works for pip install + pyinstaller), cwd fallback (legacy start.bat)
+    candidates = [
+        os.path.join(os.path.dirname(__file__), "ascii_banners", filename),
+        os.path.join(os.getcwd(), "ascii_banners", filename),
+        os.path.join(os.getcwd(), "foltz-wbs", "ascii_banners", filename),
+    ]
+    if hasattr(sys, "_MEIPASS"):
+        candidates.insert(0, os.path.join(sys._MEIPASS, "ascii_banners", filename))
+    for p in candidates:
+        if os.path.exists(p):
+            with open(p, 'r', encoding='utf-8') as file:
+                return file.read()
     with open(f'ascii_banners/{filename}', 'r', encoding='utf-8') as file:
         return file.read()
 
