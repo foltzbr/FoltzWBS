@@ -1,0 +1,17 @@
+[project]
+name = "foltz-wbs"
+version = "1.1.0"
+description = "Interactive Python tool to manage webhooks: add, list, verify, delete and send bulk messages"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+  "colored==2.2.4",
+  "requests==2.32.3",
+]
+
+[project.scripts]
+foltz-wbs = "main:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
