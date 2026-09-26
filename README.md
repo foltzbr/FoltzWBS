@@ -2,77 +2,77 @@
 
 ![Python](https://img.shields.io/badge/Python-3-blue) ![Requests](https://img.shields.io/badge/requests-2.32-green) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Termux-orange) ![License](https://img.shields.io/badge/license-MIT-yellow)
 
-**Foltz WBS** é uma ferramenta interativa em Python para gerenciar e usar webhooks de forma eficiente: adicionar, listar, verificar e deletar webhooks, além de enviar mensagens em massa para os webhooks configurados.
+**Foltz WBS** is an interactive Python tool to manage and use webhooks efficiently: add, list, verify and delete webhooks, plus send bulk messages to the configured webhooks.
 
-**Idioma:** Português (este arquivo) • [English](README.en.md) • [Español](README.es.md)
+**Language:** [Português](README.pt.md) • English (this file) • [Español](README.es.md)
 
-## Sumário
+## Summary
 
-- [Recursos](#recursos)
-- [Pré-requisitos](#pré-requisitos)
-- [Estrutura](#estrutura)
-- [Começando](#começando)
-- [Como usar](#como-usar)
-- [Personalização](#personalização)
-- [Licença](#licença)
-- [Contato](#contato)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Structure](#structure)
+- [Getting started](#getting-started)
+- [How to use](#how-to-use)
+- [Customization](#customization)
+- [License](#license)
+- [Contact](#contact)
 
-## Recursos
+## Features
 
-- Adicionar novos webhooks
-- Deletar webhooks existentes
-- Listar todos os webhooks salvos
-- Verificar se os webhooks estão funcionando
-- Enviar mensagens em massa para os webhooks
-- Banners ASCII personalizáveis
-- Efeito de máquina de escrever no terminal
+- Add new webhooks
+- Delete existing webhooks
+- List all saved webhooks
+- Verify that webhooks are working
+- Send bulk messages to webhooks
+- Custom ASCII banners
+- Typewriter effect in the terminal
 
-## Pré-requisitos
+## Prerequisites
 
-- **Python 3.x** instalado
-- **pip** para instalar as dependências (`colored`, `requests`)
+- **Python 3.x** installed
+- **pip** to install dependencies (`colored`, `requests`)
 
-## Estrutura
+## Structure
 
 ```
 FoltzWBS/
 ├── LICENSE
 ├── README.md
 └── foltz-wbs/
-    ├── main.py                  # script principal (menu interativo)
-    ├── requirements.txt         # dependências (colored, requests)
-    ├── install_requirements.bat # instala as dependências (Windows)
-    ├── start.bat                # inicia o programa (Windows)
-    ├── webhooks.txt             # webhooks salvos
-    └── ascii_banners/           # banners personalizáveis
+    ├── main.py                  # main script (interactive menu)
+    ├── requirements.txt         # dependencies (colored, requests)
+    ├── install_requirements.bat # installs dependencies (Windows)
+    ├── start.bat                # starts the program (Windows)
+    ├── webhooks.txt             # saved webhooks
+    └── ascii_banners/           # customizable banners
 ```
 
-## Começando
+## Getting started
 
-Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
+Follow these steps to install and use Foltz WBS on your system.
 
-### 📥 Instalação
+### Installation
 
 #### Windows
 
-1. **Clone o repositório:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/foltzbr/FoltzWBS.git
    cd FoltzWBS/foltz-wbs
    ```
 
-2. **Instale as dependências:**
+2. **Install dependencies:**
 
-   Execute o arquivo `install_requirements.bat`:
+   Run the `install_requirements.bat` file:
 
    ```bash
    install_requirements.bat
    ```
 
-3. **Inicie o script:**
+3. **Start the script:**
 
-   Execute o arquivo `start.bat`:
+   Run the `start.bat` file:
 
    ```bash
    start.bat
@@ -80,20 +80,20 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
 
 #### Linux
 
-1. **Clone o repositório:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/foltzbr/FoltzWBS.git
    cd FoltzWBS/foltz-wbs
    ```
 
-2. **Instale as dependências:**
+2. **Install dependencies:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Execute o script:**
+3. **Run the script:**
 
    ```bash
    python main.py
@@ -101,14 +101,14 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
 
 #### Termux
 
-1. **Instale Python e Git:**
+1. **Install Python and Git:**
 
    ```bash
    pkg update && pkg upgrade
    pkg install python git
    ```
 
-2. **Clone o repositório e instale as dependências:**
+2. **Clone the repository and install dependencies:**
 
    ```bash
    git clone https://github.com/foltzbr/FoltzWBS.git
@@ -116,38 +116,38 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
    pip install -r requirements.txt
    ```
 
-3. **Execute o script:**
+3. **Run the script:**
 
    ```bash
    python main.py
    ```
 
-## Como Usar
+## How to use
 
-1. **Inicie o Foltz WBS.**
-2. **Escolha uma opção do menu:**
-   - **Adicionar Webhook**: Adicione uma nova URL de webhook (salva em `webhooks.txt`).
-   - **Deletar Webhook**: Remova um webhook existente.
-   - **Listar Webhooks**: Veja todos os webhooks salvos.
-   - **Verificar Webhooks**: Cheque se os webhooks estão funcionando.
-   - **Enviar Mensagens**: Envie mensagens em massa para os webhooks.
+1. **Start Foltz WBS.**
+2. **Pick an option from the menu:**
+   - **Add Webhook**: add a new webhook URL (saved in `webhooks.txt`).
+   - **Delete Webhook**: remove an existing webhook.
+   - **List Webhooks**: see all saved webhooks.
+   - **Verify Webhooks**: check that webhooks are working.
+   - **Send Messages**: send bulk messages to webhooks.
 
-## Arquivos `.bat`
+## `.bat` files
 
-- **`install_requirements.bat`**: Instala as bibliotecas necessárias (`colored`, `requests`).
-- **`start.bat`**: Inicia o script principal.
+- **`install_requirements.bat`**: installs the required libraries (`colored`, `requests`).
+- **`start.bat`**: starts the main script.
 
-## Personalização
+## Customization
 
-- **Banners**: Personalize os banners editando os arquivos em `ascii_banners/`.
-- **Efeito de Texto**: Ajuste o efeito de máquina de escrever no script conforme preferir.
+- **Banners**: customize banners by editing the files in `ascii_banners/`.
+- **Text effect**: adjust the typewriter effect in the script as you like.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contato
+## Contact
 
-Para dúvidas ou sugestões, entre em contato:
+Questions or suggestions:
 
 - **Foltz** - [GitHub](https://github.com/foltzbr)

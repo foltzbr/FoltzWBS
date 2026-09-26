@@ -4,7 +4,7 @@
 
 **Foltz WBS** es una herramienta interactiva en Python para gestionar y usar webhooks de forma eficiente: añadir, listar, verificar y eliminar webhooks, además de enviar mensajes masivos a los webhooks configurados.
 
-**Idioma:** [Português](README.md) • [English](README.en.md) • Español (este archivo)
+**Idioma:** [Português](README.pt.md) • [English](README.md) • Español (este archivo)
 
 ## Contenido
 
