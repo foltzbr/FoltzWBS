@@ -4,33 +4,35 @@
 
 **Foltz WBS** é uma ferramenta interativa em Python para gerenciar e usar webhooks de forma eficiente: adicionar, listar, verificar e deletar webhooks, além de enviar mensagens em massa para os webhooks configurados.
 
-## 📑 Sumário
+**Idioma:** Português (este arquivo) • [English](README.en.md) • [Español](README.es.md)
 
-- [✨ Recursos](#-recursos)
-- [⚙️ Pré-requisitos](#️-pré-requisitos)
-- [📁 Estrutura](#-estrutura)
-- [🚀 Começando](#-começando)
-- [🛠️ Como usar](#️-como-usar)
-- [🎨 Personalização](#-personalização)
-- [📄 Licença](#-licença)
-- [📞 Contato](#-contato)
+## Sumário
 
-## ✨ Recursos
+- [Recursos](#recursos)
+- [Pré-requisitos](#pré-requisitos)
+- [Estrutura](#estrutura)
+- [Começando](#começando)
+- [Como usar](#como-usar)
+- [Personalização](#personalização)
+- [Licença](#licença)
+- [Contato](#contato)
 
-- ➕ Adicionar novos webhooks
-- 🗑️ Deletar webhooks existentes
-- 📋 Listar todos os webhooks salvos
-- ✅ Verificar se os webhooks estão funcionando
-- 📤 Enviar mensagens em massa para os webhooks
-- 🎨 Banners ASCII personalizáveis
-- ⌨️ Efeito de máquina de escrever no terminal
+## Recursos
 
-## ⚙️ Pré-requisitos
+- Adicionar novos webhooks
+- Deletar webhooks existentes
+- Listar todos os webhooks salvos
+- Verificar se os webhooks estão funcionando
+- Enviar mensagens em massa para os webhooks
+- Banners ASCII personalizáveis
+- Efeito de máquina de escrever no terminal
+
+## Pré-requisitos
 
 - **Python 3.x** instalado
 - **pip** para instalar as dependências (`colored`, `requests`)
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 FoltzWBS/
@@ -45,7 +47,7 @@ FoltzWBS/
     └── ascii_banners/           # banners personalizáveis
 ```
 
-## 🚀 Começando
+## Começando
 
 Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
 
@@ -120,7 +122,7 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
    python main.py
    ```
 
-## 🛠️ Como Usar
+## Como Usar
 
 1. **Inicie o Foltz WBS.**
 2. **Escolha uma opção do menu:**
@@ -130,21 +132,21 @@ Siga estas etapas para instalar e usar o Foltz WBS no seu sistema.
    - **Verificar Webhooks**: Cheque se os webhooks estão funcionando.
    - **Enviar Mensagens**: Envie mensagens em massa para os webhooks.
 
-## 🔧 Arquivos `.bat`
+## Arquivos `.bat`
 
 - **`install_requirements.bat`**: Instala as bibliotecas necessárias (`colored`, `requests`).
 - **`start.bat`**: Inicia o script principal.
 
-## 🎨 Personalização
+## Personalização
 
 - **Banners**: Personalize os banners editando os arquivos em `ascii_banners/`.
 - **Efeito de Texto**: Ajuste o efeito de máquina de escrever no script conforme preferir.
 
-## 📄 Licença
+## Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 📞 Contato
+## Contato
 
 Para dúvidas ou sugestões, entre em contato:
 
